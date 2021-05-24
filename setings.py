@@ -1,0 +1,3 @@
+# Constantes
+TENTATIVAS_ADICIONAIS = 1
+ARQUIVO_PALAVRA_SECRETA = 'dados.txt'
