@@ -11,5 +11,21 @@ from helpers import *
 print("Hello World!")
 
 if __name__ == "__main__":
-    print("\n+*=*+*=*+*=*+ Jogo da Forca +*=*+*=*+*=*+\n")
-    print(f"{50 * '*'}")
+    print("\n+*=*+*=*+*=*+ Jogo da Forca +*=*+*=*+*=*+")
+    print(f"{41 * '*'}")
+
+    # Chama a função e armazena em uma variável
+    palavra_secreta = gerar_palavra_secreta().upper()
+    print("\nSorteando palavra...\n")
+    print("A palavra é:")
+
+    for letra in palavra_secreta:
+        print("*", end=" ")
+
+    print(f"\n{'_' * len(palavra_secreta)}")
+
+    # Calculando o tamanho da palavra
+    tamanho_palavra = len(palavra_secreta)
+    print(f"- A palavra tem {tamanho_palavra} letras")
+
+    jogo(palavra_secreta)
