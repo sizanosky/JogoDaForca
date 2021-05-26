@@ -13,6 +13,7 @@ print("Hello World!")
 
 if __name__ == "__main__":
     print("\n+*=*+*=*+*=*+ Jogo da Forca +*=*+*=*+*=*+")
+    sleep(1)
     print(f"{41 * '*'}")
 
     # Chama a função e armazena em uma variável
