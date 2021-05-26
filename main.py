@@ -7,6 +7,7 @@
 """
 
 from helpers import *
+from time import sleep
 
 print("Hello World!")
 
@@ -16,7 +17,12 @@ if __name__ == "__main__":
 
     # Chama a função e armazena em uma variável
     palavra_secreta = gerar_palavra_secreta().upper()
+    print("\nSorteando palavra.\n")
+    sleep(1)
+    print("\nSorteando palavra..\n")
+    sleep(1)
     print("\nSorteando palavra...\n")
+    sleep(1)
     print("A palavra é:")
 
     for letra in palavra_secreta:
